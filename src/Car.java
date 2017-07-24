@@ -19,12 +19,12 @@ public class Car {
     }
 
     //class Car all argument constructor
-    public Car (String makeOfCar, String modelOfCar, int yearOfCar, double priceOfCar)
+    public Car (String mk, String ml, int y, double pc)
     {
-        make = makeOfCar;
-        model = modelOfCar;
-        year = yearOfCar;
-        price = priceOfCar;
+        make = mk;
+        model = ml;
+        year = y;
+        price = pc;
     }
 
     //getters
@@ -54,7 +54,12 @@ public class Car {
         price = pc;
     }
 
-
+    //other methods
+    //to make toString work, I have to match Object's toString header
+    @Override
+    public String toString() {
+        return make + ", " + model  + ", " + year  + ", " + price;
+    }
 
 
 
