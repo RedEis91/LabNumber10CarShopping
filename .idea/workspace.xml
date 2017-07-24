@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ecf98b7-1e22-41a2-9227-5575b88392f1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Car.java" afterPath="$PROJECT_DIR$/src/Car.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CarApp.java" afterPath="$PROJECT_DIR$/src/CarApp.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/CarApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +68,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Car.java" />
-        <option value="$PROJECT_DIR$/src/CarApp.java" />
         <option value="$PROJECT_DIR$/src/UsedCar.java" />
+        <option value="$PROJECT_DIR$/src/CarApp.java" />
       </list>
     </option>
   </component>
@@ -82,7 +81,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="40" />
-    <option name="y" value="171" />
+    <option name="y" value="186" />
     <option name="width" value="1156" />
     <option name="height" value="752" />
   </component>
@@ -553,15 +552,15 @@
       <option name="presentableId" value="Default" />
       <updated>1500651128563</updated>
       <workItem from="1500651130315" duration="1383000" />
-      <workItem from="1500842902615" duration="3782000" />
+      <workItem from="1500842902615" duration="3821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5165000" />
+    <option name="totallyTimeSpent" value="5204000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="171" width="1156" height="752" extended-state="0" />
+    <frame x="40" y="186" width="1156" height="752" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -632,7 +631,7 @@
     <entry file="file://$PROJECT_DIR$/src/CarApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
