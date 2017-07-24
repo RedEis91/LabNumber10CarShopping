@@ -1,8 +1,4 @@
-/**
- * Created by Jared on 7/20/17.
- */
 public class Car {
-
     //instance variables
     private String make;
     private String model;
@@ -17,7 +13,6 @@ public class Car {
         year = 2017;
         price = 15000.00;
     }
-
     //class Car all argument constructor
     public Car (String mk, String ml, int y, double pc)
     {
@@ -26,7 +21,6 @@ public class Car {
         year = y;
         price = pc;
     }
-
     //getters
     public String getMake() {
         return make;
@@ -53,14 +47,10 @@ public class Car {
     public void setPrice(double pc) {
         price = pc;
     }
-
     //other methods
     //to make toString work, I have to match Object's toString header
     @Override
     public String toString() {
-        return make + ", " + model  + ", " + year  + ", " + price;
+        return year+ " " + make + " " + model + ", $" + (int)price + ".00";
     }
-
-
-
 }

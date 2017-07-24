@@ -1,12 +1,9 @@
-/**
- * Created by Jared on 7/23/17.
- */
 public class UsedCar extends Car {
         private double mileage;
         private String used;
 
-        public UsedCar(String mk, String ml, int y, double pc, String u, double m) {
-            super(mk, ml, y, pc);
+        public UsedCar( String mk, String ml, int y, double pc, String u, double m) {
+            super( mk, ml, y, pc);
             this.used = u;
             this.mileage = m;
         }
@@ -19,7 +16,6 @@ public class UsedCar extends Car {
     //to make toString work, I have to match Object's toString header
     @Override
     public String toString() {
-        return "Used: " + super.toString() + " " + used + " / " + mileage;
+        return super.toString() + "\n" + " (" + used + ") " + mileage + " miles";
     }
-
 }
