@@ -16,22 +16,22 @@ public class CarApp {
 
 
         int selection = getSelection(scan, stock);
-
-//            if (selection == stock.size() + 1){
-//            System.out.println("Thanks!");
-//            }
         if (selection > 0 && selection < (stock.size() + 1)) {
 //            contin = selection;
 
-            System.out.println("you selected "  + stock.get(selection - 1).getModel());
+            System.out.println(stock.get(selection-1));
+            scan.nextLine();
             System.out.println("Would you like to buy this car?");
             String buy = scan.nextLine();
             if (buy.contains("y") || buy.contains("Y")) {
-                stock.remove(selection - 1);
-                System.out.println("Excellent! I'm making so much money today hahahahahaha");
 
+                stock.remove(selection - 1);
+                System.out.println("Excellent! I'm making so much money today mwahahahaha...ahem.");
+                System.out.println();
+                getSelection(scan, stock);
             }
         }
+        System.out.println("Have a great day!");
     }
 
     public static int getSelection(Scanner scan, ArrayList<Car> stock) {
@@ -41,7 +41,7 @@ public class CarApp {
             i++;
         }
         System.out.println((i) + ". Quit ");
-        System.out.println("Which car would you like? (#1-6): ");
+        System.out.println("Which car would you like?: ");
         return scan.nextInt();
     }
 }

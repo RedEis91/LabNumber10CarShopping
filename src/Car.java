@@ -4,7 +4,6 @@ public class Car {
     private String model;
     private int year;
     private double price;
-
     //class Car default/no arguments constructor
     public Car()
     {
